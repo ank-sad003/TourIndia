@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jaini+Purva&display=swap');
+
+.about-container {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    /* Box shadow for depth */
+}
+
+/* Heading styles */
+.about-container h2 {
+    font-family: "Jaini Purva", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0b2727;
+    /* Orange color */
+}
+
+.about-container h3 {
+    font-family: "Jaini Purva", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0b2727;
+    /* Orange color */
+}
+
+/* Text styles */
+.about-container p,
+.about-container ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    /* Dark gray color */
+}
+
+/* List styles */
+.about-container ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+    .about-container {
+        padding: 30px;
+    }
+
+    .about-container h2 {
+        font-size: 24px;
+    }
+
+    .about-container h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about-container p,
+    .about-container ul {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-container h2 {
+        font-size: 22px;
+    }
+
+    .about-container h3 {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+
+    .about-container p,
+    .about-container ul {
+        font-size: 14px;
+    }
+}
